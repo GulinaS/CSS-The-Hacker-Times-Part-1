@@ -2,7 +2,7 @@
 
 
 
-  header { 
+   header >h1 { 
     
     text-align: center;
     font-family:'Abril Fatface' ;
@@ -21,7 +21,7 @@
   padding: 20px; 
   border: 1px solid #eee; 
   border-radius: 5px; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 5px #ddd; 
 
 }
 .newspaper-container h1 {
@@ -69,6 +69,7 @@
 
     color:red;
    font-size: large;
+   font-family: 'Roboto Slab';
 
 
 }
@@ -117,6 +118,12 @@ nav ul li a:hover {
  
 }
 
+a:link {
+  color:#777;
+
+
+}
+
  main >img {
 
   width: 100%;
@@ -125,27 +132,47 @@ nav ul li a:hover {
 
 }
 
- .more-articles {
-  display: flex;
-  width: 25%;
-  height: 25%;
-  text-align: center; /* Aligns articles horizontally */
-  display: inline-block;
-    /* Additional styles for individual articles */
-  
-  
-  
- }
+.more-articles section {
+    display: inline-block;
+    text-align: justify;
+    width: 47%;
+    border: solid #eee;
+    border-width: 2px 0 0 0 ;
+    padding: 10px 1px 11px 18px;
 
- section h4 {
+}
+.more-articles p {
+    display: inline-block;
+    text-align: justify;
+    padding: 0 30px 0 0;
 
-  display: flex;
-  width:15px;
-  display:inline-block;
-  
+}
+.more-articles section{
+    display: inline-block;
+    text-align: justify;
+    width: 30%;
+    padding: 10px 1px 11px 18px;
+    border: solid #eee;
+    border-width: 2px 0 0 0 ;
+
+}
+.more-articles p {
+    display: inline-block;
+    text-align: justify;
+    padding: 0 30px 0 0;
+    
+}    
+.more-articles img {
+    display: inline-block;
+    text-align: justify;
+    padding: 0 50px 0 0;
+    width: 150%;
+    
+}    
 
 
- }
+
+
 
 
 

@@ -36,8 +36,11 @@
 }
 
 .newspaper-img {
-  display:inline ;
-  
+  display:flex;
+  font: size 100px;
+  font-weight: 500px;
+  margin:auto;
+
   
    
 }
@@ -94,26 +97,30 @@ nav ul li {
 }
 
 nav ul li a {
-  display: block; 
+  display: inline-block; 
   color: #777; 
   text-decoration: none; 
   padding: 10px 20px; 
+  
 }
 
 nav ul li a:hover {
   background-color: #777; 
+ 
 }
 
 
 
 
    article {
-
+    display:flex;
+    justify-content: center;
     background-color: white;
     font-family: 'Roboto Slab';
     font-style: normal;
 
-}
+
+   }
 
  main >img {
 
@@ -123,13 +130,16 @@ nav ul li a:hover {
 
 }
  
-.more-articles {
+ .more-articles {
+ 
+  width: 50px; 
+  height:25px;
+  margin: auto;
+   
+ }
 
-width: 50%;
-margin: auto;
-display:block;
 
-}
+ 
 
 
 

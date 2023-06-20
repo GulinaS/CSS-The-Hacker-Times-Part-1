@@ -73,10 +73,12 @@
 
 }
 
-main {
+main h2 {
 font-family: 'Roboto Slab';
-margin: 0;
-font-weight: 200;
+margin-top:50px;
+font-weight: 400;
+font-size: 50px;
+
 
 
 
@@ -127,8 +129,22 @@ nav ul li a:hover {
   display: flex;
   width: 25%;
   height: 25%;
- 
+  text-align: center; /* Aligns articles horizontally */
+  display: inline-block;
+    /* Additional styles for individual articles */
   
+  
+  
+ }
+
+ section h4 {
+
+  display: flex;
+  width:15px;
+  display:inline-block;
+  
+
+
  }
 
 

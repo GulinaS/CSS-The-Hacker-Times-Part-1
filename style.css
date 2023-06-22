@@ -85,6 +85,13 @@ font-size: 50px;
 
 }
 
+p {
+  font-size: 25px;
+
+
+}
+
+
     
 nav {
   background-color: #eee; 
@@ -128,20 +135,14 @@ a:link {
   width: 100%;
   margin: auto;
  
+ }
+ section {
 
-}
-
-.more-articles section {
-    display: inline-block;
-    text-align: justify;
-    width: 47%;
-    border: solid #eee;
-    border-width: 2px 0 0 0 ;
-    padding: 10px 1px 11px 18px;
-
-}
+  display:inline-block;
 
 
+ }
+/*  
  .more-articles section{
     display: inline-block;
     text-align: justify;
@@ -149,25 +150,29 @@ a:link {
     padding: 10px 1px 11px 18px;
     border: solid #eee;
     
+*/
+   
 
-   }
 
-
-.more-articles p {
+  .more-articles p {
     display: inline-block;
     text-align: justify;
     padding: 0 30px 0 0;
     
 }    
-.more-articles img {
-    display: flex;
-    text-align: justify;
-    padding: 0 50px 0 0;
-    width: 150%;
+  section img {
+
+    /* display: flex; */
+    display:inline;
+    /* text-align: justify; */
+    padding: -1.5em;
+    width: 400px;
     margin-left: 3em;
     margin-right: 3em;
     
 }    
+
+
 
 
 
